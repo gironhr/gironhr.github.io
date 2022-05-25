@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOSSNA Agencia Creativa.</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>   
+     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/icons/css/all.css">
+
+        <!-- Link Swiper's CSS -->
+        <link
+        rel="stylesheet"
+        href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+  
+      <!-- LIBRERIOA DE ANIMACION -->
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+   </head>
+<body>
+
+<!-- NAVEGADOR -->
+<header class="cd-auto-hide-header">
+	<div class="logo"><a href="index.html"><img src="imgs/SVG/simbolo_hernan.svg" alt="Logo"></a></div>
+
+	<nav class="cd-primary-nav">
+		<a href="#cd-navigation" class="nav-trigger">
+			<span>
+				<em aria-hidden="true"></em>
+				Menu
+			</span>
+		</a> <!-- .nav-trigger -->
+
+		<ul id="cd-navigation">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="aboutme.html">About me</a></li>
+			<li><a href="galery.html">Galery</a></li>
+			<li><a href="contacto.html">Contact</a></li>
+		</ul>
+	</nav> <!-- .cd-primary-nav -->
+</header> <!-- .cd-auto-hide-header -->
+
+ <!-- Swiper -->
+ <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"> <img src="imgs/port-04.jpg" alt="geral"></div>
+      <div class="swiper-slide"> <img src="imgs/portada-05.jpg" alt="diseño de contenido"> <div class="botonver"><a href="#0">VER</a></div> </div>
+      <div class="swiper-slide"> <img src="imgs/portada-06.jpg" alt="diseño editorial"> <div class="botonver"><a href="#0">VER</a></div> </div>
+      <div class="swiper-slide"> <img src="imgs/portada-03.jpg" alt="branding"> <div class="botonver"><a href="#0">VER</a></div> </div>
+      <div class="swiper-slide"> <img src="imgs/portada-04.jpg" alt="editorial"> <div class="botonver"><a href="#0">VER</a></div> </div>
+      </div>
+    <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+</div>
+
+<section class="bienvenida" id="seccion1">
+  <div class="wrap">
+      <h1>Creamos marcas, creamos universos.</h1>
+      <p>Tu marca es más que un conjunto de letras y símbolos que te definen; es la esencia de 
+        tu organización y el espíritu de tu compañía. Es ese activo intangible que te permite 
+        sobresalir ante la competencia y ganarte el corazón de tus clientes. </p>
+          <div class="down animate__animated animate__backInDown">
+              <a href="#seccion2"> <i class="fa-solid fa-circle-chevron-down"></i>
+          </div>
+  </div>
+</section>
+
+
+<!-- Swiper JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    cssMode: true,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    pagination: {
+      el: ".swiper-pagination",
+    },
+    mousewheel: true,
+    keyboard: true,
+  });
+</script>
+<!-- FIN Swiper -->
+
+<section class="Trabajos" id="seccion3">
+    <div class="wrap">
+        <iframe width="560" height="315" src="https://www.youtube.com/watch?v=YsngNDHFrk8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</section>
+  
+<!-- .cd-main-content -->
+	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+<script>
+	if( !window.jQuery ) document.write('<script src="js/jquery-3.0.0.min.js"><\/script>');
+</script>
+<script src="js/main.js"></script> <!-- Resource jQuery --> 
+
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="logo"><a href="index.html"><img src="imgs/SVG/bossna.svg" alt="Logo"></a></div>
+
+  <ul>
+      <li><a href="#"><b>Hernán Girón</b></a></li>
+      <li><a href="#">Todos los derechos reservados.</a></li>
+      <li><a href="#">Medellín - Colombia 2021.</a></li>   
+  </ul>
+
+  <ul>
+    <li><a href="index.html"><b>Home</b></a></li>
+    <li><a href="aboutme.html"><b>About Me</b></a></li>
+    <li><a href="galery.html"><b>Galery</b></a></li>   
+    <li><a href="contacto.html"><b>Contact</b></a></li>   
+  </ul>
+
+  <div class="icon_footer">
+    <ul>
+      <li><a href="https://www.instagram.com/bossna___/?hl=en" target="black"><img src="imgs/SVG/insta.svg" alt=""></a></li>
+      <li><a href="mailto:bossnaagencia@gmail.com" target="black"><img src="imgs/SVG/mail.svg" alt=""></a></li>
+      <li><a href="wa.me/message/FC5RA46XA6HPL1" target="black"><img src="imgs/SVG/whatsapp.svg" alt=""></a></li>
+    </ul>
+  </div>  
+</footer>
+
+
+
+
+</body>
+</html>
